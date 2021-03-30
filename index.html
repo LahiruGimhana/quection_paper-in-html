@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="function.js"></script>
+    <title>Home</title>
+<!--Bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <style>
+            .tabcontent { display: none;}
+            .tabcontent .active{display: block; display: show ;}
+            .alert {display:none;}
+            /* .divs {display: none;} */
+        </style>
+    </head>
+    <body>
+        
+        <!-- <div class="divs">  -->
+            <!-- <div class="cls active bg-light" id="cls1">1</div>
+            <div  class="cls active bg-light" id="cls2">2</div>
+            <div  class="cls active bg-light" id="cls3">3</div>
+            <div class="cls" id="cls4">4</div>
+            <div class="cls" id="cls1">5</div>
+            <div class="cls">6</div>
+            <div class="cls">7</div> -->
+        <!-- </div> -->
+
+
+
+        <div class="container text-center">
+            <h1>Tabs with buttons</h1>
+
+            <div class="main" id="main">
+                    <div class="section one">
+                        <!-- Information box -->
+                    <div class="tabcontent active bg-light" id="content1">
+                        <div class="container" >
+                            <div class="card d-sm-block">
+                                <div class="card-body"> <strong>01</strong>
+                                Is Your Brand Name Memorable ? <br>
+                                Can You Brand Name Pronounce Easily ? <br>
+                                Can Your Brand Name Spell and Write Easily ?<br>
+                                
+                                <form> 
+                                <center>
+                                    
+                                <button type="button" class="btn btn-primary" id="btnYes" onclick="myFuncYes()">Yes</button>
+                                <button type="button" class="btn btn-primary" id="btnNo" onclick="myFuncNo()">No</button>
+                                </center>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <br>
+
+                        
+                    <!-- Alert for yes -->
+                        
+                    
+
+
+
+
+
+                    <div class="section two" >
+                        <!-- Information box -->
+                        <div class="tabcontent bg-light" id="content2">
+                        <div class="container">
+                            <div class="card d-sm-block">
+                                <div class="card-body">  <strong>02</strong>
+                                ABCDEF Is Your Brand Name Memorable ? <br>
+                                ABCDEF Can You Brand Name Pronounce Easily ? <br>
+                                ABCDEF Can Your Brand Name Spell and Write Easily ?<br>
+                                
+                                <form> 
+                                <center>
+                                    
+                                <button type="button" class="btn btn-primary" id="btnYes" onclick="myFuncYes()">Yes</button>
+                                <button type="button" class="btn btn-primary" id="btnNo" onclick="myFuncNo()">No</button>
+                                </center>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <br>
+                    <!-- Alert for yes -->
+                        <!-- <div class="container">
+                            <div class="alert alert-primary" role="alert" id="msgYes">
+                                <p>ABCDEF This message for yes</p>
+                                <div>
+                                    <a href="#" class="pre" id="pre" name="pre" onclick="prev()">&laquo; Previous</a>
+                                    <a href="#" class="nxt" id="nxt" name="nxt" onclick="next()"> Next &raquo;</a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- Alert for no -->
+                        <!-- <div class="container" id="msgNo">
+                            <div class="alert alert-danger" role="alert">
+                                <p>ABCDEF This is message for no</p>
+                                <div>
+                                    <a href="#" class="pre" id="pre" name="pre" >&laquo; Previous</a>
+                                    <a href="#" class="nxt" id="nxt" name="nxt" > Next &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div> -->
+                    </div>
+
+
+
+
+                <div class="tabcontent  bg-light" id="content3">
+                    <div class="section three">
+                        <!-- Information box -->
+                        <div class="container">
+                            <div class="card d-sm-block">
+                                <div class="card-body">  <strong>03</strong>
+                                XXXYYY Is Your Brand Name Memorable ? <br>
+                                XXXYYY Can You Brand Name Pronounce Easily ? <br>
+                                XXXYYY Can Your Brand Name Spell and Write Easily ?<br>
+                                
+                                <form> 
+                                <center>
+                                    
+                                <button type="submit" class="btn btn-primary" id="btnYes" onclick="myFuncYes()">Yes</button>
+                                <button type="submit" class="btn btn-primary" id="btnNo" onclick="myFuncNo()">No</button>
+                                </center>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <br>
+                    <!-- Alert for yes -->
+                        <!-- <div class="container">
+                            <div class="alert alert-primary" role="alert" id="msgYes">
+                                <p>XXXYYY This message for yes</p>
+                                <div>
+                                    <a href="#" class="pre" id="pre" name="pre" onclick="prev()">&laquo; Previous</a>
+                                    <a href="#" class="nxt" id="nxt" name="nxt" onclick="next()"> Next &raquo;</a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- Alert for no -->
+                        <!-- <div class="container" id="msgNo">
+                            <div class="alert alert-danger" role="alert">
+                                <p>XXXYYY This is message for no</p>
+                                <div>
+                                    <a href="#" class="pre" id="pre" name="pre" onclick="prev()">&laquo; Previous</a>
+                                    <a href="#" class="nxt" id="nxt" name="nxt" onclick="next()"> Next &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container" id="main1">
+                <div class="alert alert-primary" role="alert" id="msgYes">
+                    <p >This message for yes one w </p>
+                   
+                    <p id="output_yes"></p>
+                    <div>
+                        <a href="#" class="pre" id="pre" name="pre" onclick="prev1()">&laquo; Previous</a>
+                        <a href="#" class="nxt" id="nxt" name="nxt" onclick="next()"> Next &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Alert for no -->
+            <div class="container" id="main2">
+                <div class="alert alert-danger" role="alert" id="msgNo">
+                    <!-- <p id="myText" value="Mickey">This is message for no "$y"</p> -->
+                    
+                    <p>This is message for no </p>
+                
+                    <p id="output_no"></p>
+                    <div>
+                        <a href="#" class="pre" id="pre" name="pre"  onclick="prev1()">&laquo; Previous</a>
+                        <a href="#" class="nxt" id="nxt" name="nxt" onclick="next()"> Next &raquo;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            var currentTab = 1;
+            $("#content1").show();
+
+        </script>
+    </body>
+</html>
